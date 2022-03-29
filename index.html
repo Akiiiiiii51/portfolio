@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>トップ｜Akiiiii Labo.</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="format-detection" content="telephone=no,email=no">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link href="common/img/favicon.ico" rel="SHORTCUT ICON" />
+  <link href="common/css/common.css" rel="stylesheet" media="all">
+  <link href="css/uniq.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="js/slick/slick-theme.css">
+  <link rel="stylesheet" href="js/slick/slick.css">
+</head>
+
+<body class="top">
+  <div id="wrapper">
+
+    <header id="header" role="banner">
+      <div class="header_inner">
+        <nav class="nav_wrap">
+          <div class="logo">
+            <p class="site_id">
+              <a href="index.html"><img src="img/header.png" alt="PortFolio"></a>
+            </p>
+          </div>
+          <div class="gnav">
+            <ul>
+              <li><a href="https://twitter.com/Akiiiiiii51"><img src="img/twitter.png" alt="Twitter"></a></li>
+              <li><a href="https://www.instagram.com/akisk777/"><img src="img/instagram.png" alt="Instagram"></a></li>
+              <li><a href="https://www.youtube.com/channel/UCX7ZVZSjzf069nNFlIbhqQA"><img src="img/youtube.png" alt="YouTube"></a></li>
+            </ul>
+          </div>
+        </nav>
+        <div id="trigger" class="trigger _menu menu_close">
+          <div class="trigger_inr">
+            <span id="trigger_icon"></span>
+            <p class="trigger_txt">MENU</p>
+          </div>
+        </div>
+        <div class="wrap_menu">
+          <div class="menu_inr">
+            <p>CONTENTS</p>
+            <ul class="global-nav">
+              <li><a href="https://twitter.com/Akiiiiiii51">Twitter</a></li>
+              <li><a href="https://www.instagram.com/akisk777/">Instagram</a></li>
+              <li><a href="https://www.youtube.com/channel/UCX7ZVZSjzf069nNFlIbhqQA">Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="maincontent">
+      <section id="mv_area" class="mv_area">
+        <div class="inr">
+          <div class="mv">
+            <div class="mv_slider">
+              <div class="mv01"></div>
+              <div class="mv02"></div>
+              <div class="mv03"></div>
+              <div class="mv04"></div>
+            </div>
+            <div class="port">
+              <div class="container">
+                <a href="html/profile.html" class="btn btn-gradient"><span>PROFILE</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="about">
+              <div class="container">
+                <a href="html/work.html" class="btn btn-gradient"><span>WORKS</span></a>
+              </div>
+            </div>
+
+            <div class="txt">
+              <p>当サイトは普段はエンジニアである管理人あっきー。が、様々な実験的なチャレンジを行い、
+                発表するポートフォリオサイト「Akiiiii Labo.」です。
+                様々なコンテンツを随時更新していきますので、是非お立ち寄り下さい！
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="section">
+      <div class="copy">
+        <p><small>Copyright© 2021-2022 AKIRA SAKURAI All Rights Reserved.</small></p>
+      </div>
+      <p id="pagetop"><a href="#wrapper">TOP</a></p>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="js/slick/slick.min.js"></script>
+  <script>
+    $('.mv_slider').slick({
+      autoplay: true,
+      autoplaySpeed: 5000,
+      dots: false,
+      arrows: false,
+      fade: true,
+      pauseOnHover: false,
+      slidesToShow: 1,
+      speed: 3000
+    });
+  </script>
+</body>
+</html>
