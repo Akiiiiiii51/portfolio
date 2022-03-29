@@ -1,0 +1,412 @@
+.mv_area .inr .mv {
+  widows: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.mv_area .inr .mv .mv_slider {
+  widows: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.mv_area .inr .mv .mv_slider .mv01 {
+  background: url(../img/mv01.jpg) no-repeat 50% 50%/cover;
+  widows: 100vw;
+  height: 100vh;
+}
+
+.mv_area .inr .mv .mv_slider .mv02 {
+  background: url(../img/mv02.jpg) no-repeat 50% 50%/cover;
+  widows: 100vw;
+  height: 100vh;
+}
+
+.mv_area .inr .mv .mv_slider .mv03 {
+  background: url(../img/mv03.jpg) no-repeat 50% 50%/cover;
+  widows: 100vw;
+  height: 100vh;
+}
+
+.mv_area .inr .mv .mv_slider .mv04 {
+  background: url(../img/mv04.jpg) no-repeat 50% 50%/cover;
+  widows: 100vw;
+  height: 100vh;
+}
+
+.mv_area .inr .mv .links {
+  /* text-align: center;
+    margin: 0 auto; */
+  position: relative top;
+}
+
+.mv_area .inr .mv .port {
+  /* text-align: center;
+      margin: 0 auto; */
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%) translateX(-50%);
+  /* -webkit- transform: translateY(-50%) translateX(-50%); */
+}
+
+.mv_area .inr .mv .about {
+  /* text-align: center;
+        margin: 0 auto; */
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translateY(-50%) translateX(-50%);
+  /* -webkit- transform: translateY(-50%) translateX(-50%); */
+  /* border-radius: 50%; */
+}
+
+.mv_area .inr .mv .txt {
+  max-width: 680px;
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  bottom: 10vh;
+  left: 10%;
+}
+
+.mv_area .inr .mv .txt h1 {
+  font-size: 5em;
+  letter-spacing: .05em;
+  font-weight: 600;
+  line-height: 1;
+  text-shadow: 2px 2px 30px #000;
+}
+
+.mv_area .inr .mv .txt p {
+  margin-top: 30px;
+  font-size: 1.1em;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-shadow: 1px 1px 30px #000;
+}
+
+@media only screen and (max-width: 767px) {
+  .mv_area .inr .mv .txt {
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mv_area .inr .mv .txt h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mv_area .inr .mv .txt p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .content {
+    width: 100%;
+  }
+}
+
+.content {
+  width: 960px;
+  margin-top: 200px;
+  margin-left: 200px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+}
+
+#about .contents {
+  margin-top: 600px;
+  top: 400px;
+  border-radius: 50%;
+}
+
+/* .main-center {
+  width: 940px;
+  margin: 0 auto;
+} */
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.profile-txt {
+  width: 540px;
+  float: left;
+}
+
+.profile-txt span {
+  font-weight: bold;
+}
+
+.content.profile-image {
+  float: right;
+}
+
+.career th {
+  width: 240px;
+  /* background-color: #f0f0f0; */
+  padding: 12px 0;
+  border: 1px solid #cccccc;
+  float: left;
+}
+
+.career td {
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #cccccc;
+  float: left;
+}
+
+.works1 {
+  width: 540px;
+  float: left;
+  padding: 12px 0 12px 40px;
+}
+
+.works2 {
+  width: 540px;
+  float: right;
+  padding: 12px 0 12px 40px;
+}
+
+#wrap {
+  clear: both;
+  background-color: #ffffff;
+  padding: 90px 0;
+}
+
+#index #wrap {
+  background-color: transparent;
+  text-align: center;
+}
+
+.icon:before {
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #9cb4a4;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  position:relative;
+  overflow:hidden;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    black url('https://images.unsplash.com/photo-1439723680580-bfd9d28ef9b6?crop=entropy&fit=crop&fm=jpg&h=950&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925') 50% 50% no-repeat;
+   /* background:
+     linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ), */
+     /* rgba(220, 220, 220, 1) url('https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?crop=entropy&fit=crop&fm=jpg&h=950&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925') 50% 50% no-repeat;
+  background-blend-mode: exclusion; */
+  background-blend-mode: luminosity;
+
+
+}
+.mv_area .inr .mv .container{
+  /* height:100%; */
+  /* position: absolute; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translateY(-50%) translateX(-50%);
+    border-radius: 50%;
+    /* -webkit- transform: translateY(-50%) translateX(-50%); */
+
+}
+
+/* .btn redspan{
+  background: rgb(255,130,130);
+  background: -moz-linear-gradient(left,  rgba(255,130,130,1) 0%, rgba(225,120,237,1) 100%);
+  background: -webkit-linear-gradient(left,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+  background: linear-gradient(to right,  rgba(255,130,130,1) 0%,rgba(225,120,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+/* .btn bluespan{
+  background: rgb(51,0,255);
+  background: -moz-linear-gradient(left,  rgba(50,130,255,1) 0%, rgba(50,120,225,1) 100%);
+  background: -webkit-linear-gradient(left,  rgba(50,130,255,1) 0%,rgba(50,120,225,1) 100%);
+  background: linear-gradient(to right,  rgba(50,130,255,1) 0%,rgba(50,120,225,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8282ff', endColorstr='#ed78e1',GradientType=1 );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* .btn svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+/* .btn svg rect {
+  stroke: #EC0033;
+  stroke-width: 4;
+  stroke-dasharray: 353, 0;
+  stroke-dashoffset: 0;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+.btn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+} */
+
+/* メイン画面のボタン */
+.btn{
+  margin-top: calc(50% + 25px);
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  line-height: 300px;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 50%;
+}
+
+a.btn-gradient {
+  font-weight: normal;
+  color: #fff;
+  border-radius: 50%;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(40%, #ff3cac),
+    to(#562b7c)
+  );
+  background-image: -webkit-linear-gradient(left, #ff3cac 40%, #562b7c 100%);
+  background-image: linear-gradient(90deg, #ff3cac 40%, #562b7c 100%);
+}
+
+/* a.btn-gradient:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff3cac),
+    color-stop(#562b7c),
+    to(#2b86c5)
+  );
+  background-image: -webkit-linear-gradient(left, #ff3cac, #562b7c, #2b86c5);
+  background-image: linear-gradient(90deg, #ff3cac, #562b7c, #2b86c5);
+} */
+
+a.btn-gradient span {
+  position: relative;
+  z-index: 1;
+}
+
+a.btn-gradient:hover {
+  color: #fff;
+  border-radius: 100%;
+}
+
+a.btn-gradient:hover:after {
+  opacity: 0;
+}
+
+/*基本と主な共通部分は省略*/
+a.btn-gradient {
+  /* border-radius: 100vh; */
+  border-radius: 50%;
+}
+
+.btn{ 
+  /*周囲の線の起点とするためrelativeを指定*/
+position: relative;
+  /*円の形状*/
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  padding: 0 10px;
+text-align: center;
+background:#333;
+border-radius:50%;
+color: #fff;
+  text-decoration: none;
+  outline: none; 
+  /*天地中央にテキストを配置*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*内側の線*/
+.btn:after {
+content: "";
+  /*絶対配置で線の位置を決める*/
+position: absolute;
+top: 50%;
+left: 50%;
+  /*線の形状*/
+  width: 85%;
+height: 85%;
+border: 2px solid #333;
+border-radius: 50%;
+transform: translate(-50%, -50%) scale(1.1);
+  /*アニメーションの指定*/
+  transition: .3s ease; 
+}
+
+/*hoverをしたら枠線が小さくなる*/
+.btn:hover:after {
+transform: translate(-50%, -50%) scale(1);
+  border-color:#fff;
+}
